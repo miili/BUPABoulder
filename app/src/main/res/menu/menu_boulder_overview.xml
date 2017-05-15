@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="climb.boulder.bupaboulder.BoulderOverview">
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        android:title="Search Problem" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:checkable="true"
+        android:enabled="true"
+        android:orderInCategory="101"
+        android:title="Show finished"
+        app:actionLayout="@layout/switch_item" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
